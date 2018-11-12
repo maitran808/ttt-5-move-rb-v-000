@@ -13,3 +13,5 @@ end
 def move(board, index, character = "X")
   board[index]=character
 end
+
+board = get_variable_from_file
